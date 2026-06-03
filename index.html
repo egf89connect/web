@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Castro Pintures — Pintura i Alta Decoració a Catalunya. Interiors, façanes, paper pintat, microciment i acabats impecables. Demana pressupost sense compromís.">
+  <meta name="keywords" content="pintura, decoració, pintura interior, pintura exterior, paper pintat, microciment, estucat venecià, Catalunya, Barcelona, pressupost">
+  <meta property="og:title" content="Castro Pintures · Transformem espais, creem llars.">
+  <meta property="og:description" content="Empresa de pintura i alta decoració a Catalunya. Acabats professionals, materials de primera qualitat.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FBF9F6">
+  <title>Castro Pintures · Pintura i Alta Decoració a Catalunya</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css?v=20260603">
+
+  <!-- Inline critical: ensure content is visible without JS -->
+  <style>
+    .hero-kicker, .hero-title, .hero-tagline, .hero-ctas { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+      #splash { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     CURSOR PERSONALITZAT
+════════════════════════════════════════════════════ -->
+<div id="cursor-ring"  aria-hidden="true"></div>
+<div id="cursor-dot"   aria-hidden="true"></div>
+<div id="cursor-label" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════════════════
+     01 — SPLASH
+════════════════════════════════════════════════════ -->
+<div id="splash" role="status" aria-label="Carregant Castro Pintures">
+  <p class="splash-logo" aria-hidden="true">Castro&nbsp;Pintures</p>
+  <p class="splash-tagline" aria-hidden="true">Transformem espais, creem llars.</p>
+  <div class="splash-bar-wrap" aria-hidden="true">
+    <div class="splash-bar-fill"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     NAV
+════════════════════════════════════════════════════ -->
+<header id="nav" role="banner">
+  <a href="#hero" class="nav-logo" aria-label="Castro Pintures — inici">
+    <img src="assets/img/logo.jpg" alt="Castro Pintures" class="nav-logo-img">
+  </a>
+
+  <button id="nav-burger" class="nav-burger" aria-label="Obrir menú" aria-expanded="false" aria-controls="nav-links-wrap">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav id="nav-links-wrap" class="nav-links-wrap" aria-label="Navegació principal">
+    <ul class="nav-links">
+      <li><a href="#empresa">L'Empresa</a></li>
+      <li><a href="#serveis">Serveis</a></li>
+      <li><a href="#proces">El Procés</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#contacte" class="nav-cta">Pressupost</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main-content">
+
+<!-- ═══════════════════════════════════════════════════
+     02 — HERO
+════════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Portada Castro Pintures">
+  <div class="hero-bg" role="img" aria-label="Espai interior dissenyat amb pintura professional"></div>
+
+  <div class="hero-content">
+    <p class="hero-kicker label">Pintura i Alta Decoració · Acabats Professionals</p>
+
+    <h1 class="hero-title" aria-label="Castro Pintures">
+      <span class="line1">Castro</span>
+      <span class="line2">Pintures.</span>
+    </h1>
+
+    <p class="hero-tagline">Transformem espais,<br>creem llars.</p>
+
+    <div class="hero-ctas">
+      <a href="#contacte" class="btn btn--primary">
+        Demana Pressupost
+        <span class="btn-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#serveis" class="btn btn--outline">
+        Veure Serveis
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     MARQUEE
+════════════════════════════════════════════════════ -->
+<div id="marquee" aria-hidden="true">
+  <div class="marquee-inner">
+    <!-- Repeated twice for seamless loop -->
+    <span>Pintura d'Interiors</span><span class="dot">·</span>
+    <span>Papers Pintats</span><span class="dot">·</span>
+    <span>Microciment</span><span class="dot">·</span>
+    <span>Pintura Industrial i Façanes</span><span class="dot">·</span>
+    <span>Acabats Impecables</span><span class="dot">·</span>
+    <span>Demana el teu Pressupost sense Compromís</span><span class="dot">·</span>
+    <span>@castropintures</span><span class="dot">·</span>
+    <span>Pintura d'Interiors</span><span class="dot">·</span>
+    <span>Papers Pintats</span><span class="dot">·</span>
+    <span>Microciment</span><span class="dot">·</span>
+    <span>Pintura Industrial i Façanes</span><span class="dot">·</span>
+    <span>Acabats Impecables</span><span class="dot">·</span>
+    <span>Demana el teu Pressupost sense Compromís</span><span class="dot">·</span>
+    <span>@castropintures</span><span class="dot">·</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 01 — L'EMPRESA / LA FILOSOFIA
+════════════════════════════════════════════════════ -->
+<section id="empresa" class="section" aria-labelledby="empresa-title">
+  <div class="section-inner" style="position:relative;">
+    <span class="section-number" aria-hidden="true">01</span>
+
+    <div class="empresa-grid">
+      <!-- Collage de fotos -->
+      <div class="empresa-photos reveal" aria-label="Galeria de treballs de Castro Pintures">
+        <div class="empresa-photo">
+          <img src="assets/img/p04.jpg"
+               alt="Xalet modern pintat per Castro Pintures"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="empresa-photo">
+          <img src="assets/img/p09.jpg"
+               alt="Local comercial restaurant pintura blanca impecable"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="empresa-photo">
+          <img src="assets/img/foto2.jpg"
+               alt="Professional de Castro Pintures aplicant acabat d'alisat"
+               loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="empresa-text">
+        <div class="eyebrow reveal">
+          <span class="label">L'Empresa · Professionals</span>
+        </div>
+
+        <h2 id="empresa-title" class="display-md reveal" style="font-style:italic;">
+          La passió pel detall i<br>la neteja en cada projecte.
+        </h2>
+
+        <p class="empresa-lead reveal">
+          "La pintura no és només tapar una paret, és omplir-la de llum, textura i calidesa."
+        </p>
+
+        <p class="empresa-body reveal">
+          A Castro Pintures portem anys transformant habitatges, locals comercials i grans espais industrials. Treballem amb una filosofia clara: cada projecte mereix la mateixa dedicació i perfeccionisme, tant si es tracta d'una habitació com d'un edifici sencer. Protegim cada racó de l'entorn de l'obra i entreguem l'espai impecable.
+        </p>
+
+        <ul class="empresa-list reveal-group">
+          <li class="reveal-item">Garantia en els terminis acordats</li>
+          <li class="reveal-item">Pressupostos tancats sense sorpreses</li>
+          <li class="reveal-item">Materials de primera qualitat, duradors</li>
+          <li class="reveal-item">Protecció total de mobles, terres i sòcols</li>
+          <li class="reveal-item">Acabats perfectes, zero marcas ni gotes</li>
+        </ul>
+
+        <div class="empresa-aside reveal">
+          <strong>+10 anys</strong>
+          <p>d'experiència al sector de la pintura i l'alta decoració a Catalunya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 02 — SERVEIS
+════════════════════════════════════════════════════ -->
+<section id="serveis" aria-labelledby="serveis-title">
+  <!-- Grid estàtic de tots els serveis -->
+  <div id="serveis-llista" class="serveis-llista section" aria-labelledby="serveis-title">
+    <div class="section-inner" style="position:relative;">
+      <span class="section-number" aria-hidden="true">02</span>
+      <p class="label reveal">Serveis i Acabats</p>
+      <h2 id="serveis-title" class="display-lg reveal" style="margin-top:0.5rem; margin-bottom:3rem;">
+        Tot el que<br><em>imagines,</em><br>ho fem realitat.
+      </h2>
+      <div class="serveis-grid" id="serveis-grid">
+        <!-- Injectat per services.js -->
+      </div>
+      <div class="serveis-cta-wrap reveal" style="margin-top:3rem; text-align:center;">
+        <a href="#contacte" class="btn btn--primary">
+          Demana pressupost sense compromís
+          <span class="btn-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 03 — EL PROCÉS
+════════════════════════════════════════════════════ -->
+<section id="proces" class="section" aria-labelledby="proces-title">
+  <div class="section-inner" style="position:relative;">
+    <span class="section-number" aria-hidden="true">03</span>
+
+    <p class="label reveal">Com treballem</p>
+    <h2 id="proces-title" class="display-lg reveal" style="margin-top:0.5rem; max-width:600px;">
+      Un procés net,<br>transparent i sense<br><em>sorpreses.</em>
+    </h2>
+
+    <div class="proces-grid" style="margin-top:4rem;">
+
+      <!-- Fase 1 -->
+      <article class="proces-step step-1 reveal">
+        <span class="proces-step-num" aria-hidden="true">1</span>
+        <div class="proces-step-icon" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="6" width="32" height="32" rx="2" stroke="#7A9E7A" stroke-width="1.5"/>
+            <line x1="6" y1="14" x2="38" y2="14" stroke="#7A9E7A" stroke-width="1.5"/>
+            <line x1="14" y1="6" x2="14" y2="14" stroke="#7A9E7A" stroke-width="1.5"/>
+            <line x1="30" y1="6" x2="30" y2="14" stroke="#7A9E7A" stroke-width="1.5"/>
+            <line x1="12" y1="22" x2="32" y2="22" stroke="#7A9E7A" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="12" y1="28" x2="26" y2="28" stroke="#7A9E7A" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="proces-step-phase">Fase 1</p>
+        <h3 class="proces-step-title">Visita i Pressupost</h3>
+        <p class="proces-step-desc">Mesurem l'espai i t'assessorem sense cap compromís. T'enviem un pressupost tancat en 24 h.</p>
+      </article>
+
+      <!-- Fase 2 -->
+      <article class="proces-step step-2 reveal">
+        <span class="proces-step-num" aria-hidden="true">2</span>
+        <div class="proces-step-icon" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 4 L38 10 L38 24 Q38 36 22 40 Q6 36 6 24 L6 10 Z" stroke="#C5896A" stroke-width="1.5"/>
+            <polyline points="14,22 20,28 30,16" stroke="#C5896A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <p class="proces-step-phase">Fase 2</p>
+        <h3 class="proces-step-title">Preparació i Protecció</h3>
+        <p class="proces-step-desc">Protegim terres, mobles i sòcols amb plàstics i cintes especials. La neteja és la nostra prioritat.</p>
+      </article>
+
+      <!-- Fase 3 -->
+      <article class="proces-step step-3 reveal">
+        <span class="proces-step-num" aria-hidden="true">3</span>
+        <div class="proces-step-icon" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="22" y1="6" x2="22" y2="30" stroke="#7A9AB5" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M14 30 Q14 40 22 40 Q30 40 30 30 Z" stroke="#7A9AB5" stroke-width="1.5"/>
+            <line x1="16" y1="6" x2="28" y2="6" stroke="#7A9AB5" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="17" y1="11" x2="27" y2="11" stroke="#7A9AB5" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="proces-step-phase">Fase 3</p>
+        <h3 class="proces-step-title">Aplicació Professional</h3>
+        <p class="proces-step-desc">Apliquem els materials triats amb tècniques d'alta precisió, cobrint homogèniament i sense deixar marques.</p>
+      </article>
+
+      <!-- Fase 4 -->
+      <article class="proces-step step-4 reveal">
+        <span class="proces-step-num" aria-hidden="true">4</span>
+        <div class="proces-step-icon" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="16" stroke="#B5A06A" stroke-width="1.5"/>
+            <polyline points="14,22 20,28 30,16" stroke="#B5A06A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="22" y1="6" x2="22" y2="10" stroke="#B5A06A" stroke-width="1.5"/>
+            <line x1="22" y1="34" x2="22" y2="38" stroke="#B5A06A" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <p class="proces-step-phase">Fase 4</p>
+        <h3 class="proces-step-title">Revisió i Lliurament</h3>
+        <p class="proces-step-desc">Garantim un acabat perfecte, repassem cada racó i deixem l'espai totalment net i llest per habitar.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 04 — GALERIA
+════════════════════════════════════════════════════ -->
+<section id="galeria" aria-labelledby="galeria-title">
+  <div class="galeria-header">
+    <span class="section-number" aria-hidden="true" style="position:relative; display:block; text-align:right; height:0; overflow:visible; top:2rem;">04</span>
+    <p class="label reveal">Galeria de Projectes</p>
+    <h2 id="galeria-title" class="display-lg reveal" style="margin-top:0.5rem;">
+      Cada paret,<br>una <em>obra.</em>
+    </h2>
+  </div>
+
+  <div class="galeria-lanes">
+    <!-- Fila 1 -->
+    <div class="galeria-lane" aria-label="Primera fila de projectes">
+      <div id="lane1-inner" class="galeria-lane-inner"></div>
+    </div>
+    <!-- Fila 2 -->
+    <div class="galeria-lane" aria-label="Segona fila de projectes">
+      <div id="lane2-inner" class="galeria-lane-inner"></div>
+    </div>
+    <!-- Fila 3 -->
+    <div class="galeria-lane" aria-label="Tercera fila de projectes">
+      <div id="lane3-inner" class="galeria-lane-inner"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 05 — PRESSUPOSTOS GRANS
+════════════════════════════════════════════════════ -->
+<section id="pressupost" aria-labelledby="pressupost-title">
+  <div class="section-inner" style="position:relative;">
+    <span class="section-number" aria-hidden="true">05</span>
+  </div>
+
+  <div style="padding: 0 var(--gutter);">
+    <div class="pressupost-card reveal">
+      <div class="pressupost-card-bg" role="img" aria-label="Espai decorat amb alta qualitat"></div>
+
+      <div class="pressupost-content">
+        <p class="label">Projectes Grans · Reformes Integrals · Locals Comercials</p>
+        <h2 id="pressupost-title" class="pressupost-title">
+          Tens un projecte<br><em>en ment?</em>
+        </h2>
+        <p class="pressupost-copy">
+          Treballem en pisos complets, reformes de locals comercials i col·laborem amb interioristes i constructors. Contacta'ns i t'enviem una proposta personalitzada.
+        </p>
+        <a id="wa-pressupost" href="#" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Parlar per WhatsApp amb Castro Pintures">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Parlem per WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ RESSENYES GOOGLE
+════════════════════════════════════════════════════ -->
+<section id="ressenyes" class="section" aria-labelledby="ressenyes-title">
+  <div class="section-inner" style="position:relative;">
+    <span class="section-number" aria-hidden="true">★</span>
+
+    <div class="ressenyes-header">
+      <p class="label reveal">Ressenyes Google</p>
+      <h2 id="ressenyes-title" class="display-lg reveal" style="margin-top:0.5rem;">
+        El que diuen<br>els nostres <em>clients.</em>
+      </h2>
+      <div class="ressenyes-rating reveal" aria-label="Valoració global 5 estrelles">
+        <div class="ressenyes-stars" aria-hidden="true">★★★★★</div>
+        <p class="ressenyes-rating-text">5,0 · Basat en ressenyes de Google</p>
+      </div>
+    </div>
+
+    <div id="ressenyes-grid" class="ressenyes-grid" role="list" aria-label="Ressenyes de clients">
+      <!-- Injectat per reviews.js -->
+    </div>
+
+    <div class="reveal" style="margin-top:2.5rem; text-align:center;">
+      <a href="https://g.co/kgs/castropintures" target="_blank" rel="noopener noreferrer"
+         class="btn btn--outline" aria-label="Veure totes les ressenyes a Google">
+        Veure totes les ressenyes a Google
+        <span class="btn-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SECCIÓ 06 — CONTACTE
+════════════════════════════════════════════════════ -->
+<section id="contacte" class="section" aria-labelledby="contacte-title">
+  <div class="section-inner" style="position:relative;">
+    <span class="section-number" aria-hidden="true">06</span>
+
+    <p class="label reveal">Contacte</p>
+    <h2 id="contacte-title" class="display-lg reveal" style="margin-top:0.5rem; max-width:640px;">
+      Parlem del teu<br><em>projecte.</em>
+    </h2>
+
+    <div class="contacte-grid">
+      <!-- Formulari -->
+      <div>
+        <form id="contact-form" novalidate aria-label="Formulari de sol·licitud de pressupost">
+          <div class="form-field">
+            <span class="form-field-num">01</span>
+            <label for="f-nom">Nom i Cognoms</label>
+            <input type="text" id="f-nom" name="nom" autocomplete="name" placeholder="Com et dius?" required>
+          </div>
+          <div class="form-field">
+            <span class="form-field-num">02</span>
+            <label for="f-tel">Telèfon de Contacte</label>
+            <input type="tel" id="f-tel" name="tel" autocomplete="tel" placeholder="On et podem trucar?" required>
+          </div>
+          <div class="form-field">
+            <span class="form-field-num">03</span>
+            <label for="f-servei">Tipus de Servei</label>
+            <select id="f-servei" name="servei" required>
+              <option value="" disabled selected>Quin servei t'interessa?</option>
+              <!-- Opcions injectades per contact.js des de manifest.js -->
+            </select>
+          </div>
+          <div class="form-field">
+            <span class="form-field-num">04</span>
+            <label for="f-missatge">Detalls del Projecte</label>
+            <textarea id="f-missatge" name="missatge" placeholder="Descriu l'espai, mides aproximades, qualsevol detall que ens pugui ajudar..." rows="4"></textarea>
+          </div>
+
+          <p class="form-privacy">
+            Les dades s'enviaran directament per WhatsApp. No emmagatzemem cap informació personal.
+          </p>
+
+          <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+            Enviar Sol·licitud per WhatsApp
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Info lateral -->
+      <aside class="contacte-info" aria-label="Informació de contacte">
+        <h3 class="contacte-info-title">Estem aquí<br><em>per ajudar-te.</em></h3>
+
+        <div class="contact-detail">
+          <p class="label">Telèfon / WhatsApp</p>
+          <a href="tel:+34600000000" class="js-phone" aria-label="Trucar a Castro Pintures">
+            <span class="js-phone-text">600 000 000</span>
+          </a>
+        </div>
+
+        <div class="contact-detail">
+          <p class="label">Instagram</p>
+          <a href="https://instagram.com/castropintures" class="js-ig" target="_blank" rel="noopener noreferrer">
+            <span class="js-ig-text">@castropintures</span>
+          </a>
+        </div>
+
+        <div class="contact-detail">
+          <p class="label">Zona de Servei</p>
+          <p class="js-zona">Catalunya</p>
+        </div>
+
+        <div class="contact-detail">
+          <p class="label">Horari d'Atenció</p>
+          <p class="js-horari">Dl–Dv: 8:00–19:00 · Ds: 9:00–14:00</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <p class="footer-display" aria-hidden="true">
+    Castro Pintures &nbsp;·&nbsp; Castro Pintures &nbsp;·&nbsp; Castro Pintures &nbsp;·&nbsp; Castro Pintures &nbsp;·
+  </p>
+
+  <div class="footer-grid">
+    <div class="footer-col">
+      <p class="footer-col-title">Àrea de Servei</p>
+      <ul>
+        <li><p>Barcelona</p></li>
+        <li><p>Hospitalet de Llobregat</p></li>
+        <li><p>Badalona · Sabadell</p></li>
+        <li><p>Terrassa · Cornellà</p></li>
+        <li><p>Sant Cugat · Rubí</p></li>
+        <li><p>Granollers · Mollet</p></li>
+        <li><p>I tota Catalunya</p></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-col-title">Contacte</p>
+      <ul>
+        <li>
+          <a href="tel:+34600000000" class="js-phone" aria-label="Telèfon Castro Pintures">
+            <span class="js-phone-text">600 000 000</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/34600000000" id="footer-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/castropintures" class="js-ig" target="_blank" rel="noopener noreferrer">
+            <span class="js-ig-text">@castropintures</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-col-title">Informació</p>
+      <ul>
+        <li><a href="#empresa">L'Empresa</a></li>
+        <li><a href="#serveis">Serveis</a></li>
+        <li><a href="#proces">El Procés</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contacte">Contacte</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Castro Pintures · Tots els drets reservats</p>
+    <a href="#hero" class="footer-back-top" aria-label="Tornar al principi de la pàgina">
+      ↑ Tornar a dalt
+    </a>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════════ -->
+
+<!-- Dades editables (manifest) -->
+<script src="lib/manifest.js?v=20260603"></script>
+
+<!-- GSAP + ScrollTrigger (CDN, funciona amb file:// i Hostinger) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- App scripts (IIFE, no type="module") -->
+<script src="js/splash.js?v=20260603"></script>
+<script src="js/nav.js?v=20260603"></script>
+<script src="js/cursor.js?v=20260603"></script>
+<script src="js/services.js?v=20260603"></script>
+<script src="js/gallery.js?v=20260603"></script>
+<script src="js/contact.js?v=20260603"></script>
+<script src="js/reviews.js?v=20260603"></script>
+<script src="js/animations.js?v=20260603"></script>
+
+<!-- Inline: registra ScrollTrigger i fallback si GSAP no carrega -->
+<script>
+(function(){
+  if(window.gsap && window.ScrollTrigger){
+    gsap.registerPlugin(ScrollTrigger);
+  } else {
+    // Fallback: mostra tot el contingut visible sense animació
+    document.querySelectorAll('.reveal').forEach(function(el){
+      el.style.opacity='1';
+      el.style.transform='none';
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
